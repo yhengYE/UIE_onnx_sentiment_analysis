@@ -185,10 +185,10 @@ def login():
     # 填写登录信息
     time.sleep(0.5)
     driver.find_element(By.ID, 'loginname').clear()
-    driver.find_element(By.ID, 'loginname').send_keys('13689515253')
+    driver.find_element(By.ID, 'loginname').send_keys('账号')
     time.sleep(0.5)
     driver.find_element(By.ID, 'nloginpwd').clear()
-    driver.find_element(By.ID, 'nloginpwd').send_keys('p698754321')
+    driver.find_element(By.ID, 'nloginpwd').send_keys('密码')
     driver.implicitly_wait(2)
     driver.find_element(By.ID, 'loginsubmit').click()
     time.sleep(0.5)
